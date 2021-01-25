@@ -1,0 +1,82 @@
+@font-face {
+  font-family: "BootsAndSpurs";
+  src: url("/fonts/BootsAndSpurs.ttf") format("truetype");
+}
+body {
+  font-family: "Roboto", Verdana, sans-serif;
+}
+h1{
+  font-size: 2em;
+}
+h1,
+h2,
+.logo {
+  font-family: "BootsAndSpurs", "Arial Narrow", Arial, sans-serif;
+}
+.logo {
+  margin: 25px;
+  text-decoration: none;
+}
+.logo:hover {
+  text-decoration: underline;
+}
+.product-list h2{
+  font-family: Roboto, Verdana, sans-serif;
+}
+header,
+footer {
+  display: flex;
+  background-color: #202020;
+  color: #fff;
+}
+header a {
+  color: #fff;
+}
+nav li {
+  list-style-type: none;
+  display: inline-flex;
+  justify-content: flex-start;  
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.nav a.active {
+  text-decoration: underline;
+}
+.hero{
+  background: url("../images/home-header_web.jpg");
+  
+}
+.reviews {
+  background-color: #e8e8e8;
+}
+.cta {
+  background-color: #bb0000;
+  border-radius: 5px;
+}
+.sale {
+  background-color: #127300;
+  border-radius: 5px;
+}
+
+a.cta,
+a.sale {
+  color: #fff;
+}
+.featured-products {
+  background-color: #fbfbfb;
+}
+footer {
+  text-align: center;
+}
+footer::before,
+footer::after {
+  content: "/";
+  color: crimson;
+  font-size: 20px;
+  font-weight: bold;
+}
